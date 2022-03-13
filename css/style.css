@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;500;700&family=Lato:wght@300;400;700&family=Poppins:wght@100;200;300;400;500;700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+li,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #313131;
+}
+
+.hero-nav {
+  background-image: url(../asset/herobg.jpg);
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-nav h2 {
+  font-size: 32px;
+}
+
+h2 span {
+  color: #d2276e;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  height: 70px;
+  overflow: hidden;
+  padding: 0 120px;
+  position: fixed;
+  background-color: #212121;
+  z-index: 999;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  padding-right: 20px;
+}
+
+nav ul {
+  margin-right: 30px;
+}
+
+.right-pane a {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.2s ease 0s;
+}
+
+.nav_links a:hover {
+  color: rgb(238, 255, 0);
+}
+
+.right-pane {
+  display: flex;
+}
+
+.nav_btn a:hover {
+  color: #d2276e;
+  background-color: #fff;
+  border: 3px solid #d2276e;
+  font-weight: bold;
+  padding: 5px 27px;
+}
+
+.nav_btn a {
+  text-decoration: none;
+  color: white;
+  padding: 8px 30px;
+  background-color: #d2276e;
+  border-radius: 2rem;
+}
+
+/* --------------- */
+
+main {
+  display: flex;
+  width: 80%;
+  /* border: 2px solid white; */
+  margin: 0 auto;
+
+  align-items: center;
+}
+
+.hero-img {
+  width: 50%;
+  height: 900px;
+  /* background-color: rgb(126, 7, 7); */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-img img {
+  width: 450px;
+  border-radius: 225px;
+}
+
+.hero-desc {
+  width: 50%;
+  /* height: 750px; */
+  /* background-color: rgb(63, 7, 126); */
+  /* display: flex; */
+  align-items: center;
+
+  /* justify-content: center; */
+}
+
+.jobdesc {
+  margin-top: 50px;
+}
+
+.hero-desc h1 {
+  font-size: 55px;
+  font-weight: bold;
+}
+
+.hero-desc p {
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.hero-desc span {
+  color: #d2276e;
+}
+
+.hero-desc h2 {
+  font-weight: bold;
+}
+
+.hero-desc h4 {
+  margin-top: 40px;
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.5em;
+}
+
+/* ------------------------------ */
+
+#skill {
+  margin-top: 100px;
+}
+
+.card p,
+h5 {
+  color: black;
+}
+
+.skill-card {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill_desc {
+  margin: 20px 0 50px 0;
+}
+
+.skill_desc p {
+  font-size: 24px;
+}
+
+#skill h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+/* -------------------------------------- */
+
+#projects {
+  margin-top: 200px;
+}
+
+#projects h1 {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.projects_card {
+  display: flex;
+  width: 80%;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.pro_card {
+  /* border: 1px solid white; */
+  width: 550px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+  background-color: #414141;
+  margin: 15px;
+}
+.pro_card img {
+  width: 500px;
+  /* border-radius: 20px; */
+  margin-bottom: 20px;
+}
+
+.title {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.form {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+.contact h2 {
+  margin-top: 100px;
+  margin-bottom: 50px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.contactme a {
+  text-decoration: none;
+  color: white;
+}
+
+.contactme i {
+  margin-bottom: 20px;
+  margin-right: 20px;
+}
+
+.form p {
+  margin-bottom: 50px;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+  padding: 30px;
+  background-color: #d2276e;
+}
+
+main,
+section,
+div {
+  scroll-margin-top: 5rem;
+}
